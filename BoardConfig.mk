@@ -66,3 +66,6 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Inherit from proprietary files
 include vendor/xiaomi/sweet/BoardConfigVendor.mk
+
+# MiuiCamera
+-include vendor/miuicamera-sweet/BoardConfig.mk
