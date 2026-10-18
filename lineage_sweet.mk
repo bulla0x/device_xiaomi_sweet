@@ -17,6 +17,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Build
 DERPFEST_BUILD_TYPE := Official
+DERP_BOOTANIMATION := legacy
+TARGET_INCLUDE_ACCORD := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier.
 PRODUCT_NAME := lineage_sweet
